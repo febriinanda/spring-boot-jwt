@@ -1,5 +1,7 @@
-package com.auth0.samples.authapi.task;
+package com.auth0.samples.authapi.controller;
 
+import com.auth0.samples.authapi.model.Task;
+import com.auth0.samples.authapi.repository.TaskRepository;
 import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
